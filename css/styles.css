@@ -3,13 +3,8 @@ body {
 	font-family: Helvetica;
 }
 
-.container {
-	padding: 50px;
-}
-
 #header {
 	box-sizing: border-box;
-	width: 100%;
 	padding: 50px;
 	background-color: #333;
 	text-align: center;
@@ -17,35 +12,26 @@ body {
 }
 
 #title {
+	margin: 0;
 	color: #fff;
 }
 
 .content {
-	display: inline-block;
-	height: 200px;
-	width: 45%;
 	padding: 20px;
 	margin: 0;
 	background-color: #eee;
 }
-.content:last-of-type {
-	margin-left: calc(10% - 80px);
+
+#clickers {
+	margin-top: 50px;
+	text-align: center;
 }
 
 .clicker {
-	display: inline-block;
-	width: 10%;
 	text-align: center;
 	padding: 10px 50px;
-	margin: 25px calc((100% - (10% + 100px) * 3) / 6);
 	text-decoration: none;
 	color: #fff;
-}
-.clicker:first-child {
-	margin-left: 0;
-}
-.clicker:last-child {
-	margin-right: 0;
 }
 .clicker:hover {
 	background-color: #eee !important;

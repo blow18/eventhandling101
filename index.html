@@ -4,18 +4,37 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<script src="js/app.js"></script>
 </head>
 <body>
 	<div class="container">
-		<div id="header">
-			<h1 id="title">This is a title</h1>
+		<div class="row">
+			<div class="col-sm-12">
+				<div id="header">
+					<h1 id="title">This is a title</h1>
+				</div>
+			</div>
 		</div>
-		<div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, soluta, placeat. Dolorem maiores laudantium consequatur nisi pariatur sapiente hic tempore voluptatum natus reprehenderit dignissimos, quasi ex, deleniti nemo sint facilis.</div><!--
-		--><div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto deserunt maiores sint illum iure vero impedit voluptas reiciendis saepe non, libero. Repellat in alias laborum, non qui quaerat omnis.</div>
-		<a href="javascript:void(0)" class="clicker" id="clicker1" style="background-color: #93B5C6">Click me</a>
-		<a href="javascript:void(0)" class="clicker" id="clicker2" style="background-color: #F0CF65">Click me</a>
-		<a href="javascript:void(0)" class="clicker" id="clicker3" style="background-color: #D7816A">Click me</a>
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, soluta, placeat. Dolorem maiores laudantium consequatur nisi pariatur sapiente hic tempore voluptatum natus reprehenderit dignissimos, quasi ex, deleniti nemo sint facilis.</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto deserunt maiores sint illum iure vero impedit voluptas reiciendis saepe non, libero. Repellat in alias laborum, non qui quaerat omnis.</div>
+			</div>
+		</div>
+		<div class="row" id="clickers">
+			<div class="col-sm-4">
+				<a href="javascript:void(0)" class="clicker" id="clicker1" style="background-color: #93B5C6">Click me</a>
+			</div>
+			<div class="col-sm-4">
+				<a href="javascript:void(0)" class="clicker" id="clicker2" style="background-color: #F0CF65">Click me</a>
+			</div>
+			<div class="col-sm-4">
+				<a href="javascript:void(0)" class="clicker" id="clicker3" style="background-color: #D7816A">Click me</a>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
